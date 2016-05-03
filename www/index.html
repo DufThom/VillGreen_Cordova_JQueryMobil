@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *"> -->
+        <meta http-equiv="Content-Security-Policy" content="default-src *">
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+        <!-- <link rel="stylesheet" type="text/css" href="css/index.css"> -->
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css">
+        <link rel="stylesheet" type="text/css" href="css/MyCssVG.css">
+        <link rel="stylesheet" href="css/themes/vgtheme.css" />
+        <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+        <script type="text/javascript" src="js/jquery-1.12.2.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <title>App VillGreen</title>
+<body >
+<div class="imgFond2" data-role="page" id="page1">
+
+    <div data-role="header page" align="center">
+         <div class="ui-grid-a " >
+            <div class="ui-block-a"><img src="img/logo.png"></div>
+            <div class="ui-block-b"><h3 class="myriad">VILLAGE GREEN </h3><p class="arista">App Mobile</p></div>
+         </div>
+         <div class="ui-grid-d fondNoir">
+            <div class="ui-block-a"><button class="ui-btn ui-btn-a ui-corner-all" id="btn_guitare">
+                <img src="img/icon guitar.png" class="iconDimension"></button>
+            </div>
+            <div class="ui-block-b"><button class="ui-btn ui-btn-a ui-corner-all" id="btn_clavier">
+                <img src="img/icon clavier.png" class="iconDimension"></button>
+            </div>
+            <div class="ui-block-c"><button class="ui-btn ui-btn-a ui-corner-all">
+                <img src="img/icon vent.png" class="iconDimension"></button>
+            </div>
+            <div class="ui-block-d"><button class="ui-btn ui-btn-a ui-corner-all">
+                <img src="img/icon batterie.png" class="iconDimension"></button>
+            </div>
+            <div class="ui-block-e"><button class="ui-btn ui-btn-a ui-corner-all">
+                <img src="img/icon sono.png" class="iconDimension"></button>
+            </div>
+         </div>
+         <div>
+            <button id="button2" class="ui-btn ui-btn-a ui-icon-star ui-corner-all"> Afficher tous les produits </button> 
+         </div>
+            <input type="text" id="textBox1" class="input" placeholder="Quel produit cherchez-vous ?"></input>
+            <div>
+                <button id="button1" class="ui-btn ui-btn-a ui-icon-star ui-corner-all ">Rechercher par nom du produit
+                </button>
+            </div>
+        
+    </div>
+
+    <div data-role="content">
+        <div data-iscroll>
+
+            <div data-role="listview" class="ui-grid-a fondNoir" id="listeProds">
+              
+            </div><!-- /grid-a -->
+
+            <!-- <ul data-role="listview" id="listeProds">
+                
+            </ul> -->
+        </div>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        
+        <h3>Village Green<br />
+        <a href="http://dl.bienvu.net/thomasd/VillGreenWeb/" class="arista myLink">Visitez notre site web</a></h3>
+    </div>
+</div>
+<!-- Affichage Page 2 - Détails du Film -->
+    <!-- <div data-role="page" id="page2">
+        <div data-role="header page">
+            <h3 align="center">Détails du produit</h3>
+            <div><a href="#page1" class="ui-btn" data-transition="turn">Retour</a></div>
+        </div>
+        <div data-role="content">
+            <div data-iscroll>
+                <ul data-role="listview" id="detailsProd">
+                    
+                </ul>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h2>Village Green</h2>
+        </div>
+    </div> -->
+
+<script type="text/javascript" src="cordova.js"></script>        
+    </body>
+</html>
